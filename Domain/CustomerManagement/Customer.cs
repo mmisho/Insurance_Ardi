@@ -68,6 +68,11 @@ namespace Domain.CustomerManagement
             {
                 throw new ArgumentNullException(nameof(personalNumber));
             }
+
+            if (string.IsNullOrEmpty(string.Empty))
+            {
+
+            }
         }
     }
 }
